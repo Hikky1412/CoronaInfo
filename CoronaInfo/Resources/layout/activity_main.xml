@@ -6,11 +6,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:minWidth="25px"
-    android:minHeight="25px">
+    android:minHeight="25px"
+    android:rotationX="444"
+    android:rotation="0"
+    android:rotationY="23"
+    android:scrollIndicators="none">
     <TextView
         android:text="Давайте зарегистрируемся"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView1" />
+        android:id="@+id/textView1"
+        android:textSize="20sp"
+        android:gravity="bottom"
+        android:textStyle="bold"/>
+
+
+
 </RelativeLayout>
