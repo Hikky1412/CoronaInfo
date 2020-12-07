@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:scrollIndicators="none">
+
+    <Button
+        android:text="Готово"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="300dp"
+        android:height="62.5dp"
+        android:layout_toLeftOf="@id/textView1"
+        android:id="@+id/Уже_зарегистрирован"
+        android:translationY="325dp"
+        app:backgroundTint="@android:color/holo_green_dark"
+        android:textAppearance="Inter"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/Ввод_телефона"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="300dp"
+        android:height="62.5dp"
+        android:alpha="0.5dp"
+        android:translationY="120dp"
+        android:textAppearance="Inter"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <Button
+        android:id="@+id/Ввод_пароль"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="300dp"
+        android:height="62.5dp"
+        android:alpha="0.5dp"
+        android:translationY="200dp"
+        android:textAppearance="Inter"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/some_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Дневник здоровья"
+        android:gravity="center_horizontal|center_vertical"
+        android:translationY="10dp"
+        android:textStyle="bold"
+        android:textColor="#ff000000"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/Текст_телефон"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Ваши результаты по COVID-19"
+        android:gravity="center_horizontal|center_vertical"
+        android:translationY="105dp"
+        android:textStyle="bold"
+        android:textColor="#ff000000"
+        android:textSize="14dp"/>
+
+    <TextView
+        android:id="@+id/Текст_пароль"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Возможность заболеваемости"
+        android:gravity="center_horizontal|center_vertical"
+        android:translationY="185dp"
+        android:textStyle="bold"
+        android:textColor="#ff000000"
+        android:textSize="14dp" />
+
+   
+
+
+</RelativeLayout>
