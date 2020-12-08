@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    x:Class="CoronaInfo.MainPage">
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -21,7 +28,9 @@
         app:backgroundTint="@android:color/holo_green_dark"
         android:textAppearance="Inter"
         android:textSize="15dp"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:onClick="123" />
 
     <Button
         android:text="Уже зарегистрированы"
@@ -59,7 +68,7 @@
         android:alpha="0.5dp"
         android:translationY="85dp"
         android:textAppearance="Inter"
-        android:textSize="15dp" 
+        android:textSize="15dp"
         android:layout_centerHorizontal="true"/>
 
     <Button
@@ -83,7 +92,7 @@
         android:alpha="0.5dp"
         android:translationY="245dp"
         android:textAppearance="Inter"
-        android:textSize="15dp" 
+        android:textSize="15dp"
         android:layout_centerHorizontal="true"/>
 
     <TextView
@@ -137,10 +146,10 @@
         android:textStyle="bold"
         android:textColor="#ff000000"
         android:textSize="25dp" />
-    
-    
+
+
     <TextView
-        android:id="@+id/some_id"
+        android:id="123_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -153,5 +162,5 @@
         android:textStyle="normal" />
 
 
-
 </RelativeLayout>
+</ContentPage>

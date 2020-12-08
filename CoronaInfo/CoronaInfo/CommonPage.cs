@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace CoronaInfo
 {
-    public class CommonPage : reg2;
+    public class CommonPage : ContentPage
     {
         public CommonPage()
         {

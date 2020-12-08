@@ -10,18 +10,63 @@
     android:scrollIndicators="none">
 
     <Button
-        android:text="Готово"
+        android:text="Вероятность заражения в посещённых местах"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="300dp"
+        android:height="80dp"
+        android:layout_toLeftOf="@id/textView1"
+        android:id="@+id/Уже_зарегистрирован"
+        android:translationY="220dp"
+        android:textAppearance="Inter"
+        android:textSize="15dp"
+        app:backgroundTint="#B17E4F"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:text="Посмотреть как дела у друзей"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:width="300dp"
         android:height="62.5dp"
         android:layout_toLeftOf="@id/textView1"
         android:id="@+id/Уже_зарегистрирован"
-        android:translationY="325dp"
-        app:backgroundTint="@android:color/holo_green_dark"
+        android:translationY="315dp"
         android:textAppearance="Inter"
         android:textSize="15dp"
+        app:backgroundTint="#6979F8"
         android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:text="Ваши знания о COVID-19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="140dp"
+        android:height="80dp"
+        android:layout_toLeftOf="@id/textView1"
+        android:id="@+id/Уже_зарегистрирован"
+        android:translationY="400dp"
+        android:translationX="80dp"
+        android:textAppearance="Inter"
+        android:textSize="15dp"
+        app:backgroundTint="#69B3F8"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:text="Риск заболевания"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="140dp"
+        android:height="80dp"
+        android:layout_toLeftOf="@id/textView1"
+        android:id="@+id/Уже_зарегистрирован"
+        android:translationY="400dp"
+        android:translationX="-80dp"
+        android:textAppearance="Inter"
+        android:textSize="15dp"
+        app:backgroundTint="#F869A5"
+        android:layout_centerHorizontal="true" />
+
     <Button
         android:id="@+id/Ввод_телефона"
         android:layout_width="wrap_content"
@@ -29,9 +74,10 @@
         android:width="300dp"
         android:height="62.5dp"
         android:alpha="0.5dp"
-        android:translationY="120dp"
+        android:translationY="70dp"
         android:textAppearance="Inter"
         android:textSize="15dp"
+        app:backgroundTint="#6EE46C"
         android:layout_centerHorizontal="true"/>
 
 
@@ -42,9 +88,10 @@
         android:width="300dp"
         android:height="62.5dp"
         android:alpha="0.5dp"
-        android:translationY="200dp"
+        android:translationY="145dp"
         android:textAppearance="Inter"
         android:textSize="15dp"
+        app:backgroundTint="#6EE46C"
         android:layout_centerHorizontal="true"/>
     <TextView
         android:id="@+id/some_id"
@@ -67,7 +114,7 @@
         android:layout_alignParentTop="true"
         android:text="Ваши результаты по COVID-19"
         android:gravity="center_horizontal|center_vertical"
-        android:translationY="105dp"
+        android:translationY="55dp"
         android:textStyle="bold"
         android:textColor="#ff000000"
         android:textSize="14dp"/>
@@ -80,12 +127,12 @@
         android:layout_alignParentTop="true"
         android:text="Возможность заболеваемости"
         android:gravity="center_horizontal|center_vertical"
-        android:translationY="185dp"
+        android:translationY="130dp"
         android:textStyle="bold"
         android:textColor="#ff000000"
         android:textSize="14dp" />
 
-   
+
 
 
 </RelativeLayout>

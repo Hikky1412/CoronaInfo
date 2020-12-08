@@ -1,8 +1,14 @@
+{http://xamarin.com/schemas/2014/forms}Button;obj\Debug\90\res\layout\activity_main.xml
+{http://xamarin.com/schemas/2014/forms}ContentPage;obj\Debug\90\res\layout\activity_main.xml
+{http://xamarin.com/schemas/2014/forms}RelativeLayout;obj\Debug\90\res\layout\activity_main.xml
+{http://xamarin.com/schemas/2014/forms}TextView;obj\Debug\90\res\layout\activity_main.xml
 adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
 adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
 background;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
 background;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
 Button;obj\Debug\90\res\layout\activity_main.xml
+Button;obj\Debug\90\res\layout\health_diary.xml
+Button;obj\Debug\90\res\layout\reg_test.xml
 Button;obj\Debug\90\res\layout\reg2.xml
 cache-path;C:\Users\Hikky1412\source\repos\CoronaInfo\CoronaInfo\obj\Debug\90\lp\35\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 color;obj\Debug\90\res\values\colors.xml
@@ -14,6 +20,8 @@ foreground;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
 item;obj\Debug\90\res\values\styles.xml
 paths;C:\Users\Hikky1412\source\repos\CoronaInfo\CoronaInfo\obj\Debug\90\lp\35\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 RelativeLayout;obj\Debug\90\res\layout\activity_main.xml
+RelativeLayout;obj\Debug\90\res\layout\health_diary.xml
+RelativeLayout;obj\Debug\90\res\layout\reg_test.xml
 RelativeLayout;obj\Debug\90\res\layout\reg2.xml
 resources;obj\Debug\90\res\values\colors.xml
 resources;obj\Debug\90\res\values\ic_launcher_background.xml
@@ -24,4 +32,6 @@ string;obj\Debug\90\res\values\strings.xml
 string;obj\Debug\90\res\values\values.xml
 style;obj\Debug\90\res\values\styles.xml
 TextView;obj\Debug\90\res\layout\activity_main.xml
+TextView;obj\Debug\90\res\layout\health_diary.xml
+TextView;obj\Debug\90\res\layout\reg_test.xml
 TextView;obj\Debug\90\res\layout\reg2.xml
